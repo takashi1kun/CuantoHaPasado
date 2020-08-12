@@ -1,5 +1,5 @@
 {
-  "name": "CuandoHaPasado",
+  "name": "cuandohapasado",
   "version": "1.0.0",
   "description": "Un Modulo para saber cuanto ha pasado de una hora a otra.",
   "main": "index.js",
