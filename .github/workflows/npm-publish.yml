@@ -33,7 +33,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
   publish-gpr:
-    needs: build
+    needs: publish-npm
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
@@ -43,6 +43,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/          
           scope: '@takashi1kun'
       - run: npm ci
-      - run: npm publish  --@doist:registry=https://npm.pkg.github.com/
+      - run: npm publish --@doist:registry=https://npm.pkg.github.com/
         env:
           NODE_AUTH_TOKEN: ${{secrets.GPR_PAT}}
