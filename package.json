@@ -1,5 +1,5 @@
 {
-  "name": "@takashi1kun/cuandohapasado",
+  "name": "@takashi1kun/cuantohapasado",
   "version": "1.0.0",
   "description": "Un Modulo para saber cuanto ha pasado de una hora a otra.",
   "main": "cli.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/takashi1kun/CuantoHaPasado.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "author": "Aitor Rosell Torralba <aitor.rosell.torralba@gmail.com>",
   "license": "MIT",
