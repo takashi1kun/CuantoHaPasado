@@ -1,6 +1,6 @@
 {
   "name": "cuantohapasado",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Un Modulo para saber cuanto ha pasado de una hora a otra.",
   "main": "cli.js",
   "scripts": {
