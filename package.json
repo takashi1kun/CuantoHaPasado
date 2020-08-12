@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/takashi1kun/CuantoHaPasado.git"
   },
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
   "author": "Aitor Rosell Torralba <aitor.rosell.torralba@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/takashi1kun/CuantoHaPasado",
