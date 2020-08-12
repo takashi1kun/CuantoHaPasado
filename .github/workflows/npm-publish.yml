@@ -36,9 +36,6 @@ jobs:
     needs: publish-npm
     runs-on: windows-latest
     steps:
-      - uses: whatnick/wait-action@master
-        with:
-          time: '120s'
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2-beta
         with:
