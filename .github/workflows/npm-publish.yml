@@ -27,9 +27,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/          
-          scope: '@takashi1kun'
       - run: npm ci
-      - run: npm publish --@doist:registry=https://registry.npmjs.org/
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
