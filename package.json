@@ -1,6 +1,6 @@
 {
-  "name": "@takashi1kun/cuantohapasado",
-  "version": "1.0.1",
+  "name": "cuantohapasado",
+  "version": "1.0.2",
   "description": "Un Modulo para saber cuanto ha pasado de una hora a otra.",
   "main": "cli.js",
   "scripts": {
