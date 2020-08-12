@@ -6,8 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Aitor Rosell Torralba",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takashi1kun/CuantoHaPasado.git"
+  },
+  "author": "Aitor Rosell Torralba <aitor.rosell.torralba@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/takashi1kun/CuantoHaPasado",
   "bin": {
     "cuanto-ha-pasado": "./cli.js"
   }
