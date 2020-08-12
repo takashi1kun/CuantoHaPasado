@@ -1,0 +1,14 @@
+{
+  "name": "cuandohapasado",
+  "version": "1.0.0",
+  "description": "Un Modulo para saber cuanto ha pasado de una hora a otra.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aitor Rosell Torralba",
+  "license": "MIT",
+  "bin": {
+    "cuanto-ha-pasado": "./cli.js"
+  }
+}
